@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title data-i18n="meta.title">Atlas PRIME</title>
+  <meta name="description" data-i18n="meta.description" content="Atlas PRIME, groupe indépendant de conseil et d'investissement. Ingénierie financière et structuration de projets stratégiques, au Maroc et à l'international." />
+
+  <meta name="theme-color" content="#0E2438" />
+
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Atlas PRIME" />
+  <meta property="og:url" content="https://di14mehdi8.github.io/atlasprime/" />
+  <meta property="og:title" content="Atlas PRIME" />
+  <meta property="og:description" content="Groupe de conseil et d'investissement. Ingénierie financière et structuration de projets stratégiques." />
+  <meta property="og:image" content="https://di14mehdi8.github.io/atlasprime/og-image.png" />
+  <meta property="og:image:secure_url" content="https://di14mehdi8.github.io/atlasprime/og-image.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Atlas PRIME" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Atlas PRIME" />
+  <meta name="twitter:description" content="Groupe de conseil et d'investissement. Ingénierie financière et structuration de projets stratégiques." />
+  <meta name="twitter:image" content="https://di14mehdi8.github.io/atlasprime/og-image.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="nav.skip">Aller au contenu</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="header">
+    <div class="container header__inner">
+      <a class="brand" href="#hero" aria-label="Atlas PRIME">
+        <img src="assets/img/logo-text.png" alt="Atlas PRIME" class="brand__logo" width="160" height="123" />
+      </a>
+
+      <nav class="nav" aria-label="Navigation principale">
+        <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Ouvrir le menu">
+          <span></span><span></span><span></span>
+        </button>
+
+        <ul class="nav__menu" id="navMenu">
+          <li><a href="#about"     data-i18n="nav.about">À propos</a></li>
+          <li><a href="#expertise" data-i18n="nav.expertise">Expertise</a></li>
+          <li><a href="#approach"  data-i18n="nav.approach">Approche</a></li>
+          <li class="nav__action">
+            <a href="#contact" class="btn btn--sm btn--outline" data-i18n="nav.contact">Nous contacter</a>
+          </li>
+          <li class="nav__lang">
+            <button class="lang-toggle" id="langToggle" type="button" aria-label="Changer de langue">
+              <span class="lang-toggle__opt is-active" data-lang="fr">FR</span>
+              <span class="lang-toggle__sep" aria-hidden="true">/</span>
+              <span class="lang-toggle__opt" data-lang="en">EN</span>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="hero">
+      <div class="hero__motif" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <p class="eyebrow eyebrow--light" data-i18n="hero.eyebrow">Conseil &amp; investissement</p>
+        <h1 class="hero__title">Atlas&nbsp;<span class="hero__title-accent">PRIME</span></h1>
+        <p class="hero__tagline" data-i18n="hero.tagline">
+          Ingénierie financière et structuration de projets stratégiques.
+        </p>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#contact" data-i18n="hero.cta">Nous contacter</a>
+        </div>
+      </div>
+      <div class="hero__scroll" aria-hidden="true"></div>
+    </section>
+
+    <!-- ============ À PROPOS + FONDATEUR ============ -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="about__head">
+          <p class="eyebrow" data-i18n="about.eyebrow">À propos</p>
+          <h2 class="section__title" data-i18n="about.title">Un groupe indépendant de conseil et d'investissement.</h2>
+        </div>
+
+        <div class="about__intro prose">
+          <p data-i18n="about.p1">
+            Atlas PRIME accompagne des projets complexes au Maroc et à l'international. Nous apportons
+            la rigueur d'une grande institution et la liberté d'une structure indépendante.
+          </p>
+          <p data-i18n="about.p2">
+            Nous travaillons dans la durée et la discrétion, de la conception d'un montage financier
+            jusqu'à sa réalisation.
+          </p>
+        </div>
+
+        <!-- Fondateur -->
+        <div class="founder" id="founder">
+          <div class="founder__portrait">
+            <div class="portrait" aria-hidden="true"><span class="portrait__mono">A</span></div>
+          </div>
+
+          <div class="founder__body">
+            <p class="eyebrow" data-i18n="founder.eyebrow">Fondateur</p>
+            <h3 class="founder__name">Mohamed Hafnaoui</h3>
+            <p class="founder__role" data-i18n="founder.role">Fondateur d'Atlas PRIME</p>
+
+            <div class="prose founder__bio">
+              <p data-i18n="founder.bio1">
+                Directeur Général Adjoint du Groupe CDG Développement depuis 2014, il a rejoint
+                CDG Développement en 2007. Il débute sa carrière en 1989 comme Directeur Technique
+                chez Pechiney au Maroc.
+              </p>
+              <p data-i18n="founder.bio2">
+                En 1996, il devient Directeur Général de SOMACOPA. De 1999 à 2002, il dirige la
+                Compagnie Industrielle des Fibres à Tanger. En 2002, il est nommé Directeur Adjoint
+                de l'Agence Spéciale Tanger Méditerranée (TMSA) et membre du Directoire.
+              </p>
+              <p data-i18n="founder.bio3">
+                Il est diplômé de l'École Nationale Supérieure des Techniques Avancées (ENSTA) à Paris
+                et titulaire d'un DEA en Mécanique des Fluides de l'Université Paris VI.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider" aria-hidden="true"><span class="divider__motif"></span></div>
+
+    <!-- ============ EXPERTISE ============ -->
+    <section class="section section--tint" id="expertise">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow" data-i18n="expertise.eyebrow">Expertise</p>
+          <h2 class="section__title" data-i18n="expertise.title">Nos domaines d'intervention.</h2>
+        </div>
+
+        <ul class="cards">
+          <li class="card">
+            <span class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V9l7-5 7 5v12"/><path d="M9 21v-6h6v6"/></svg>
+            </span>
+            <h3 class="card__title" data-i18n="expertise.c1.title">Ingénierie financière</h3>
+            <p class="card__text" data-i18n="expertise.c1.text">Conseil en structuration et montage financier de projets complexes.</p>
+          </li>
+
+          <li class="card">
+            <span class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><rect x="4" y="13" width="5" height="8"/><rect x="14" y="9" width="6" height="12"/><path d="M9 13V7l5-3v5"/></svg>
+            </span>
+            <h3 class="card__title" data-i18n="expertise.c2.title">Structuration de projets</h3>
+            <p class="card__text" data-i18n="expertise.c2.text">Infrastructure, énergie et aménagement territorial, incluant les projets hôteliers et touristiques.</p>
+          </li>
+
+          <li class="card">
+            <span class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c4 4 6 7 6 10a6 6 0 0 1-12 0c0-1.2.3-2.3.8-3.4"/><path d="M12 21v-7"/><path d="M12 14c-1.6 0-3-1-3.5-2.5"/></svg>
+            </span>
+            <h3 class="card__title" data-i18n="expertise.c3.title">Actifs environnementaux &amp; carbone</h3>
+            <p class="card__text" data-i18n="expertise.c3.text">Valorisation d'actifs environnementaux et de crédits carbone.</p>
+          </li>
+
+          <li class="card">
+            <span class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="13" rx="1.5"/><path d="M3 9h18"/><path d="M8 21h8"/><path d="M12 17v4"/><circle cx="6" cy="6.5" r=".6" fill="currentColor"/></svg>
+            </span>
+            <h3 class="card__title" data-i18n="expertise.c4.title">Solutions digitales de pilotage d'actifs</h3>
+            <p class="card__text" data-i18n="expertise.c4.text">Développement de plateformes digitales pour le suivi et le pilotage des actifs.</p>
+          </li>
+
+          <li class="card">
+            <span class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l5-5 4 3 8-8"/><path d="M16 4h4v4"/><path d="M3 21h18"/></svg>
+            </span>
+            <h3 class="card__title" data-i18n="expertise.c5.title">Prise de participations</h3>
+            <p class="card__text" data-i18n="expertise.c5.text">Investissement et prise de participations dans des projets à fort potentiel.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ APPROCHE ============ -->
+    <section class="section section--dark" id="approach">
+      <div class="container">
+        <div class="section__head section__head--center">
+          <p class="eyebrow eyebrow--light" data-i18n="approach.eyebrow">Approche</p>
+          <h2 class="section__title section__title--light" data-i18n="approach.title">Ce qui guide nos engagements.</h2>
+        </div>
+
+        <ul class="values">
+          <li class="value">
+            <p class="value__label" data-i18n="approach.v1.label">Discrétion</p>
+            <p class="value__text" data-i18n="approach.v1.text">La confidentialité est la première condition de la confiance.</p>
+          </li>
+          <li class="value">
+            <p class="value__label" data-i18n="approach.v2.label">Rigueur</p>
+            <p class="value__text" data-i18n="approach.v2.text">Une analyse et une exécution au standard des grandes institutions.</p>
+          </li>
+          <li class="value">
+            <p class="value__label" data-i18n="approach.v3.label">Indépendance</p>
+            <p class="value__text" data-i18n="approach.v3.text">Un conseil sans conflit d'intérêts, aligné sur celui de nos partenaires.</p>
+          </li>
+          <li class="value">
+            <p class="value__label" data-i18n="approach.v4.label">Valeur durable</p>
+            <p class="value__text" data-i18n="approach.v4.text">Une valeur pensée dans la durée, au delà de la transaction.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact">
+      <div class="container contact">
+        <div class="contact__intro">
+          <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
+          <h2 class="section__title" data-i18n="contact.title">Nous contacter.</h2>
+          <p class="contact__lead" data-i18n="contact.lead">
+            Pour un rendez-vous ou un échange confidentiel, écrivez-nous. Chaque demande reçoit
+            une réponse personnelle.
+          </p>
+
+          <ul class="contact__details">
+            <li>
+              <span class="contact__label" data-i18n="contact.emailLabel">Courriel</span>
+              <a href="mailto:contact@atlasprime.ma">contact@atlasprime.ma</a>
+            </li>
+            <li>
+              <span class="contact__label" data-i18n="contact.locLabel">Localisation</span>
+              <span data-i18n="contact.locValue">Casablanca, Maroc</span>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact__form" action="mailto:contact@atlasprime.ma" method="post" enctype="text/plain">
+          <div class="field">
+            <label for="name" data-i18n="contact.form.name">Nom</label>
+            <input type="text" id="name" name="name" autocomplete="name" required />
+          </div>
+          <div class="field">
+            <label for="email" data-i18n="contact.form.email">Courriel</label>
+            <input type="email" id="email" name="email" autocomplete="email" required />
+          </div>
+          <div class="field">
+            <label for="message" data-i18n="contact.form.message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary" data-i18n="contact.form.submit">Envoyer</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img src="assets/img/logo-text-ivory.png" alt="Atlas PRIME" class="footer__logo" width="150" height="115" />
+      </div>
+
+      <nav class="footer__nav" aria-label="Navigation de pied de page">
+        <a href="#about"     data-i18n="nav.about">À propos</a>
+        <a href="#expertise" data-i18n="nav.expertise">Expertise</a>
+        <a href="#approach"  data-i18n="nav.approach">Approche</a>
+        <a href="#contact"   data-i18n="nav.contact">Nous contacter</a>
+      </nav>
+    </div>
+    <div class="container footer__legal">
+      <p>© <span id="year">2026</span> Atlas PRIME. <span data-i18n="footer.rights">Tous droits réservés.</span></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
